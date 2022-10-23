@@ -5,7 +5,7 @@ def rotate(ar, d, n):
     k=ar.index(d)
     l=ar[k+1:]+ar[0:k+1]
     return l
-        
+         
 n=int(input("Array Size:"))
 ar=[]
 print("Enter the elements")
